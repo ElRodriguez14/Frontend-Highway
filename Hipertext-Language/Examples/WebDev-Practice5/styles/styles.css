@@ -1,0 +1,57 @@
+body {
+    background-color: lightgray;
+}
+
+main {
+    font-family: sans-serif;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h2::first-letter {
+    text-decoration: underline;
+}
+
+/*Icons*/
+.icons p {
+    font-weight: bold;
+}
+
+.icons img {
+    margin-right: 65px;    
+}
+
+.icons img:last-child {
+    margin-right: 0;
+}
+
+/*Remain*/
+.remain {
+    margin-top: 24px;
+}
+
+.remain a {
+    font-family: monospace;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    background-color: lightyellow;
+    border: 3px solid orange;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.remain a:hover {
+    background-color: orange;
+}
+
+.remain img {
+    display: block;
+    margin: auto;
+}
+
+.remain h4 {
+    text-align: center;
+}
